@@ -111,7 +111,7 @@
         "learning_rate = 1e-4\n",
         "weight_decay = 1e-4"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
