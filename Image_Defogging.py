@@ -158,7 +158,7 @@
         "  \n",
         "  return output"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
