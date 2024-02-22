@@ -54,7 +54,7 @@
         "\n",
         "tf.disable_v2_behavior()"
       ],
-      "execution_count":null,
+      "execution_count":None,
       "outputs": [
         {
           "output_type": "stream",
