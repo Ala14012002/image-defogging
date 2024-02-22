@@ -206,7 +206,7 @@
         "  return train_data, val_data\n",
         "  "
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
@@ -228,7 +228,7 @@
         "  plt.imshow(x)\n",
         "  plt.show()"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
@@ -254,7 +254,7 @@
         "  \n",
         "  return train_init_op, val_init_op, iterator\n"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
@@ -293,7 +293,7 @@
         "clipped_gradients = [(tf.clip_by_norm(gradient,0.1),var) for gradient,var in gradients_and_vars]\n",
         "optimizer = optimizer.apply_gradients(gradients_and_vars)\n"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
@@ -365,7 +365,7 @@
         "      print(\"Epoch %d\\nTraining loss: %f\\nValidation loss: %f\\n\\n\"%(epoch,train_loss,val_loss))\n",
         "    "
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
@@ -385,7 +385,7 @@
         "      x = batch_data[0][j].reshape((1,)+batch_data[0][j].shape)\n",
         "      #showImage(x)"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
@@ -420,7 +420,7 @@
         "clipped_gradients = [(tf.clip_by_norm(gradient,0.1),var) for gradient,var in gradients_and_vars]\n",
         "optimizer = optimizer.apply_gradients(gradients_and_vars)\n"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
@@ -443,7 +443,7 @@
         "pickle.dump('/content/gdrive/MyDrive/AOD-Dataset/models/model_checkpoint_9.h5.data-00000-of-00001', pickle_out) \n",
         "pickle_out.close()"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
@@ -493,7 +493,7 @@
         "    \n",
         "  "
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
@@ -586,7 +586,7 @@
         "\n",
         "!pip install -q streamlit_ace"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
@@ -693,7 +693,7 @@
         "if __name__ == \"__main__\":\n",
         "    main()"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
@@ -716,7 +716,7 @@
       "source": [
         "# !wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
@@ -776,7 +776,7 @@
         "!curl -s http://localhost:4040/api/tunnels | python3 -c \\\n",
         "    'import sys, json; print(\"Execute the next cell and the go to the following URL: \" +json.load(sys.stdin)[\"tunnels\"][0][\"public_url\"])'"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
@@ -799,7 +799,7 @@
       "source": [
         "!streamlit run /content/app.py"
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": [
         {
           "output_type": "stream",
@@ -828,7 +828,7 @@
       "source": [
         ""
       ],
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     }
   ]
